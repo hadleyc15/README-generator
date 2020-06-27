@@ -1,8 +1,8 @@
-# readme generator
+# Professional README Generator
 
   ## Description
 
-  creates a readme using node
+  The purpose of this project was to create a command line application to generate a professional README.md file.  The application accepts user input to generate each section of the README.  The user may input the title of the project, a description, installation steps, usage details, and necessary test, details regarding contributions, license used, and information on how to contact the creators with questions.
 
   ##Table of Contents
   
@@ -15,29 +15,31 @@
   * [Questions](#questions)
 
   ## Installation
-
-  clone repo | run index.js through the terminal
+  
+  Here is hwo to install this project:
+  Clone the github repo to your local machine | run the application from the command line using the the command "node index.js"
 
   ## Usage
 
-  to help the user create a professional readme
+  To generate a professional README
 
   ## License
   
-  
+  No Licenses were used for this project.
 
   ## Contributing
 
-  ?
+  Please contact me with any ideas on how you wish to contribute.
 
   ## Tests
   This is how you will run any necessary tests.
-  npm test
+  npm tests
   
   ## Questions
 
+    Any questions, feel free to check out my github:
     [undefined](https:://github.com/undefined)
-
+    Or feel free to shoot me an email:
     [hadleyc15@yahoo.com](mailto:hadleyc15@yahoo.com)
     
-    Email me with any questions.
+    Please contact me via email.
