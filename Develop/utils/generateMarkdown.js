@@ -22,7 +22,7 @@ function generateMarkdown(data) {
 
   ${data.description}
 
-  ##Table of Contents
+  ## Table of Contents
   
   * [Description](#description)
   * [Installation](#installation)
@@ -50,15 +50,19 @@ function generateMarkdown(data) {
   ${data.contributing}
 
   ## Tests
-  This is how you will run any necessary tests.
+  This is how you will run any necessary tests:
+
   ${data.tests}
   
   ## Questions
 
     Any questions, feel free to check out my github:
-    [${data.github}](https:://github.com/${data.github})
+
+    GitHub profile: [${data.gitHub}](https://github.com/${data.gitHub})
+    
     Or feel free to shoot me an email:
-    [${data.email}](mailto:${data.email})
+    
+    My email is: [${data.email}](mailto:${data.email})
     
     ${data.contact}
 `;
