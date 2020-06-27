@@ -5,7 +5,7 @@ const badges = {
   "MIT": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
 };
 
-function licenseBadge (license) {
+function licenseBadge(license) {
   if (license !== "None") {
     return (
       `This project is licesned under ${data.license}.`
@@ -56,15 +56,15 @@ function generateMarkdown(data) {
   
   ## Questions
 
-    Any questions, feel free to check out my github:
+  Any questions, feel free to check out my github:
 
-    GitHub profile: [${data.gitHub}](https://github.com/${data.gitHub})
+  GitHub profile: [${data.gitHub}](https://github.com/${data.gitHub})
     
-    Or feel free to shoot me an email:
+  Or feel free to shoot me an email:
     
-    My email is: [${data.email}](mailto:${data.email})
+  My email is: [${data.email}](mailto:${data.email})
     
-    ${data.contact}
+  ${data.contact}
 `;
 }
 

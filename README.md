@@ -40,19 +40,19 @@
   Please contact me with any ideas on how you wish to contribute.
 
   ## Tests
-  
+
   This is how you will run any necessary tests:
 
   npm tests
   
   ## Questions
 
-    Any questions, feel free to check out my github:
+  Any questions, feel free to check out my github:
 
-    GitHub profile: [hadleyc15](https://github.com/hadleyc15)
+  GitHub profile: [hadleyc15](https://github.com/hadleyc15)
     
-    Or feel free to shoot me an email:
+  Or feel free to shoot me an email:
     
-    My email is: [hadleyc15@yahoo.com](mailto:hadleyc15@yahoo.com)
+  My email is: [hadleyc15@yahoo.com](mailto:hadleyc15@yahoo.com)
     
-    Please contact me via email.
+  Please contact me via email.
