@@ -5,6 +5,15 @@ const badges = {
   "MIT": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
 };
 
+function licenseBadge (license) {
+  if (license !== "None") {
+    return (
+      `This project is licesned under ${data.license}.`
+    )
+  }
+  return "No Licenses were used for this project."
+}
+
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
@@ -24,7 +33,8 @@ function generateMarkdown(data) {
   * [Questions](#questions)
 
   ## Installation
-
+  
+  Here is hwo to install this project:
   ${data.installation}
 
   ## Usage
@@ -33,21 +43,22 @@ function generateMarkdown(data) {
 
   ## License
   
-  ${badges[data.license]}
+  ${licenseBadge(data.license)}
 
   ## Contributing
 
   ${data.contributing}
 
   ## Tests
-
+  This is how you will run any necessary tests.
   ${data.tests}
   
   ## Questions
 
+    Any questions, feel free to check out my github:
     [${data.github}](https:://github.com/${data.github})
-
-    [${data.email}](mailto;${data.email})
+    Or feel free to shoot me an email:
+    [${data.email}](mailto:${data.email})
     
     ${data.contact}
 `;
