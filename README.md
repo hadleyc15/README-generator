@@ -24,8 +24,10 @@
 
   ## Installation
   
-  Here is hwo to install this project:
-  Clone the github repo to your local machine | run the application from the command line using the the command "node index.js"
+  Here is how to install this project:
+
+  Clone the github repo to your local machine
+  Run the application from the command line using the the command "node index.js"
 
   ## Usage
 

@@ -18,7 +18,7 @@ const questions = [
     {
         type: "input",
         name: "installation",
-        message: 'What steps must a user take to install your project? Separate commands with " | " to print on separate lines.'
+        message: 'What steps must a user take to install your project?'
     },
     {
         type: "input",

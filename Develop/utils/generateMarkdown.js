@@ -11,7 +11,7 @@ function licenseBadge(license) {
       `This project is licesned under ${license}.`
     )
   }
-  return "No Licenses were used for this project."
+  return "No licenses were used for this project."
 }
 
 // function to generate markdown for README
@@ -36,7 +36,8 @@ function generateMarkdown(data) {
 
   ## Installation
   
-  Here is hwo to install this project:
+  Here is how to install this project:
+
   ${data.installation}
 
   ## Usage
@@ -52,6 +53,7 @@ function generateMarkdown(data) {
   ${data.contributing}
 
   ## Tests
+
   This is how you will run any necessary tests:
 
   ${data.tests}
