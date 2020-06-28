@@ -8,7 +8,7 @@ const badges = {
 function licenseBadge(license) {
   if (license !== "None") {
     return (
-      `This project is licesned under ${data.license}.`
+      `This project is licesned under ${license}.`
     )
   }
   return "No Licenses were used for this project."
@@ -17,6 +17,8 @@ function licenseBadge(license) {
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+
+  ${badges[data.license]}
 
   ## Description
 
