@@ -3,7 +3,7 @@
 [How to create a Professional README](./readme-guide.md)
 
 
-## The following is an example README generated using this application:
+# The following is an example README generated using this application:
 
 
 # Professional README Generator
@@ -60,4 +60,5 @@
   Please contact me via email.
   
   
-  Here is a video demonstration of how the README.md generator application works: https://drive.google.com/file/d/1ih8KTwbNeadofFC-G4ngO6ZEY6bKjq20/view
+  ## Here is a video demonstration of how the README.md generator application works: 
+  https://drive.google.com/file/d/1ih8KTwbNeadofFC-G4ngO6ZEY6bKjq20/view
